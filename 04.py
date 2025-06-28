@@ -5,4 +5,4 @@
 n1 = int(input ('Escolha um numero:'))
 n2 = int(input ('Escolha outro numero:'))
 r = n1 + n2
-print('a soma dos numeros é:{}'.format(r))
+print('a soma entre, {} e {}, vale:{}'.format(n1, n2, r))

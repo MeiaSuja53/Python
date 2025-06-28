@@ -1,0 +1,32 @@
+operadores aritméticos são símbolos especiais que você usa para realizar cálculos matemáticos.
++ adição; soma dos valores.
+- subtração; subtrai o segundo valor do primeiro.
+* multiplicação; multiplica dois valores.
+/ divisão; Divide o primeiro valor pelo segundo. O resultado é sempre um número de ponto flutuante (float), mesmo que a divisão seja exata.
+** potência; Eleva o primeiro valor à potência do segundo.
+// divisão inteira
+% resto da divisão; Retorna o resto da divisão do primeiro valor pelo segundo. É útil para verificar se um número é par/ímpar ou se é múltiplo de outro.
+== compara o conteúdo ou o valor de duas coisas.
+
+5 + 2 == 7
+5 - 2 == 3
+5 * 2 == 10
+5 / 2 == 2.5
+5 ** 2 == 25
+5 // 2 == 2
+5 % 2 == 1
+
+            ***Ordem de Precedência***
+Assim como na matemática, os operadores aritméticos em Python seguem uma ordem de precedência:
+
+1º Parênteses (): O que está dentro dos parênteses é avaliado primeiro.
+
+2º Exponenciação **
+
+3º Multiplicação *, Divisão /, Divisão Inteira //, Módulo %: Avaliados da esquerda para a direita.
+
+4º Adição +, Subtração -: Avaliados da esquerda para a direita.
+
+5 + 3 * 2 == 11
+9 * 5 + 4 ** 2 == 31
+3 * (5+4) ** 2 == 243
