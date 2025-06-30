@@ -2,9 +2,9 @@
 num = int(input('Digite um numero: '))
 do = num * 2
 tri = num * 3
-qua = num ** (1/2)
+qua = num ** (1/2) 
 
 print(num)
 print(f'O dobro de: {num} vale {do}.')
 print(f'O triplo de: {num} vale {tri}.')
-print(f'A raiz quadrada de: {num} vale {qua}.')
+print('A raiz quadrada de: {} vale {:.2f}.'.format(num, qua))
